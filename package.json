@@ -1,0 +1,41 @@
+{
+  "name": "proyecto-mini",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@saeris/vue-spinners": "^1.0.8",
+    "axios": "^1.8.4",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.8.3",
+    "emotion": "^9.2.6",
+    "lightweight-charts": "^5.0.5",
+    "numeral": "^2.0.6",
+    "tailwindcss": "^1.1.2",
+    "vue": "^2.6.14",
+    "vue-chartkick": "^0.6.1",
+    "vue-emotion": "^0.4.2",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "^2.4.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "prettier": {
+    "endOfLine": "auto"
+  }
+}
